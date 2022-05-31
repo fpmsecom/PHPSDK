@@ -26,8 +26,8 @@ Include the source code and set the static fields Merchant ID and secret key.
 ```
 require('gateway.php');
 use \P3\SDK\Gateway;
-Gateway::$merchantID = '100856';
-Gateway::$merchantSecret = 'Circle4Take40Idea';
+Gateway::$merchantID = '121057';
+Gateway::$merchantSecret = 'gtlnofMTzfL5';
 ```
 
 The other static public variables of the class can also be overridden if required, including support for HTTP proxying if required. Take a look at gateway.php to see the full method signatures. A request array that describes the transaction is then required. For example:

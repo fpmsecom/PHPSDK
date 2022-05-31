@@ -14,17 +14,17 @@ class Gateway {
 	/**
 	 * @var string	Gateway Hosted API Endpoint
 	 */
-	static public $hostedUrl = 'https://gateway.cardstream.com/hosted/';
+	static public $hostedUrl = 'https://gateway.firstpayments.co.uk/hosted/';
 
 	/**
 	 * @var string	Gateway Direct API Endpoint
 	 */
-	static public $directUrl = 'https://gateway.cardstream.com/direct/';
+	static public $directUrl = 'https://gateway.firstpayments.co.uk/direct/';
 
 	/**
 	 * @var string	Merchant Account Id or Alias
 	 */
-	static public $merchantID = '100001';
+	static public $merchantID = '121057';
 
 	/**
 	 * @var string	Password for above Merchant Account
@@ -34,7 +34,7 @@ class Gateway {
 	/**
 	 * @var string	Secret for above Merchant Account
 	 */
-	static public $merchantSecret = 'Circle4Take40Idea';
+	static public $merchantSecret = 'gtlnofMTzfL5';
 
 	/**
 	 * @var string	Proxy URL if required (eg. 'https://www.proxy.com:3128')
@@ -347,7 +347,7 @@ class Gateway {
 
 	/**
 	 * Verify the any response.
-	 * 
+	 *
 	 * This method will verify that the response is present, contains a response
 	 * code and is correctly signed.
 	 *
@@ -400,7 +400,7 @@ class Gateway {
 
 	/**
 	 * Sign the given array of data.
-	 * 
+	 *
 	 * This method will return the correct signature for the data array.
 	 *
 	 * If the secret is not provided then any {@link static::$merchantSecret
